@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       hideLoader()
       showErrInfo(error)
     });
+  
 });
 
 

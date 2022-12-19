@@ -16,7 +16,7 @@ body {
     display: flex;
 }
 
-.flex.row {
+.flex .row  {
     flex-direction: row;
 }
 
@@ -26,8 +26,6 @@ body {
 
 .page {
     background-color: rgb(254, 254, 255);
-    /* min-height: 100vh; */
-    /* min-width: 100wh; */
 }
 
 header {
@@ -146,7 +144,14 @@ footer {
     header>nav.hiden {
         display: none;
     }
-
+    header>nav.open {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
     footer.flex.row {
         flex-direction: column;
     }
